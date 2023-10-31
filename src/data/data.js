@@ -4,12 +4,14 @@ import hightlightimg from "../assets/hightlightimg.png";
 import sneakershoe from "../assets/sneaker.png";
 
 import clip from "../assets/video/clip.mp4";
+import clip2 from "../assets/video/clip2.mp4";
+import clip3 from "../assets/video/clip3.mp4";
 import vcover1 from "../assets/video/vcover1.png";
 import vcover2 from "../assets/video/vcover2.png";
 import vcover3 from "../assets/video/vcover3.png";
 
 import psale1 from "../assets/nike-air-red.png";
-import psale2 from "../assets/nike-adapt-bb.png";
+import psale2 from "../assets/nike Air Foamposite.png";
 import psale3 from "../assets/nike-adapt-bb-smart.png";
 
 import product1 from "../assets/product1.png";
@@ -30,24 +32,22 @@ import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
-import messenger from "../assets/messenger.svg";
 
 const heroapi = {
-  title: "Play With Electric Nike",
-  subtitle: "Adapt 2.0 Sneakers",
+  title: "Play With Nike Zoom Lebron 4",
+  subtitle: "New classic equipped",
   img: heroimg,
   btntext: "Explore Product",
   videos: [
     { imgsrc: vcover1, clip: clip },
-    { imgsrc: vcover2, clip: clip },
-    { imgsrc: vcover3, clip: clip },
+    { imgsrc: vcover2, clip: clip2 },
+    { imgsrc: vcover3, clip: clip3 },
   ],
   sociallinks: [
-    { icon: facebook },
-    { icon: messenger },
-    { icon: instagram },
-    { icon: twitter },
-    { icon: youtube },
+    { icon: facebook, url: 'https://www.facebook.com/nike'},
+    { icon: instagram, url: 'https://instagram.com/nike' },
+    { icon: twitter, url: 'https://twitter.com/Nike' },
+    { icon: youtube, url: 'https://www.youtube.com/user/nike' },
   ],
 };
 
@@ -56,7 +56,7 @@ const popularSales = {
   items: [
     {
       id: "0p0x1",
-      title: "Nike Addapt BB 2.0",
+      title: "Nike Zoom Lebron 4",
       text: "MEN Running Shoes",
       rating: "4.9",
       btn: "Buy Now",
